@@ -161,6 +161,21 @@ sequenceDiagram
         end
         Frontend-->>User: Updated Trip Page
     end
+    opt Edit members in trip
+        User->>Frontend: Click Edit Member
+        Frontend->>Backend: List users (GET /user/list)
+        Backend->>Database: Get all users
+        Database-->>Frontend: Return all users
+        Frontend-->>User: Add / Edit user Trip Dialog
+        User->>Frontend: Add / Edit user
+        Frontend->>Backend: Associate / Dissociate Members (POST/DEL /trip/:tripid/parti/:participantid)
+        Backend->>Database: Update pivot table for trip and user
+        Database-->>Frontend: Return Success
+        Frontend->>Backend: Get Trip Info (GET /trip/:tripId)
+        Backend->>Database: Get Trip Info
+        Database-->>Frontend: Return Trip Info
+        Frontend-->>User: Updated Trip Member List
+    end
 ```
 ---
 ### Todo
