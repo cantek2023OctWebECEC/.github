@@ -53,6 +53,20 @@ Then follow the ```.env.example``` to change the environment value
 
 ## Logic for each pages
 
+**Sign Up**
+```mermaid
+sequenceDiagram
+    Actor User
+    User->>Frontend: Sign Up
+    Frontend->>Backend: Send sign up request (POST /auth/signup)
+    Backend->>Database: Check email if unique
+    Database-->>Backend: Success
+    Backend->>Database: Save user info
+    Database-->>Frontend: Success
+    Frontend-->>Frontend: Prompt Success Dialog
+    Frontend-->>User: Login Page
+```
+---
 **Login**
 ```mermaid
 sequenceDiagram
