@@ -1,6 +1,6 @@
 # Cantek Oct Web Project Organization
 
-# Trip Planner App
+# Travel Planner
 
 ## About this project
 
