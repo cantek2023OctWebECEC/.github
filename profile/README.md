@@ -2,6 +2,41 @@
 
 # Travel Planner
 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-this-project">About This Project</a>
+      <ul>
+        <li><a href="#feature">Feature</a></li>
+        <li>
+            <a href="#feature">Tech Stack</a>
+            <ul>
+                <li><a href="#frontend">Frontend</a></li>
+                <li><a href="#backend">Backend</a></li>
+                <li><a href="#infra">Infra</a></li>
+            </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li>
+        <a href="#logic-for-each-pages">Logic for each pages</a>
+        <ul>
+            <li><a href="#sign-up">Sign Up</a></li>
+            <li><a href="#login">Login</a></li>
+            <li><a href="#trip-scheduler">Trip Scheduler</a></li>
+            <li><a href="#todo">Todo</a></li>
+            <li><a href="#comment">Comment</a></li>
+        </ul>
+    </li>
+    <li><a href="#future-improvement">Future Improvement</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
 ## About this project
 
 Trip planning is one of the difficult challenge for a enjoyable travel. People may have planned a lot of places to visit. People may not where to go in a city. This application can help for solving the problems. 
@@ -39,6 +74,8 @@ Trip planning is one of the difficult challenge for a enjoyable travel. People m
 - [![PM2][PM2.io]][PM2-url]
 - [![AWSEC2][AWS.EC2]][EC2-url]
 
+<p align="right">(<a href="#travel-planner">back to top</a>)</p>
+
 ## Getting Started
 
 Please first clone the three repos 
@@ -49,11 +86,11 @@ Please first clone the three repos
 Follow the ```Readme``` file to setup. 
 Then follow the ```.env.example``` to change the environment value
 
-
+<p align="right">(<a href="#travel-planner">back to top</a>)</p>
 
 ## Logic for each pages
 
-**Sign Up**
+### Sign Up
 ```mermaid
 sequenceDiagram
     Actor User
@@ -67,7 +104,7 @@ sequenceDiagram
     Frontend-->>User: Login Page
 ```
 ---
-**Login**
+### Login
 ```mermaid
 sequenceDiagram
     Actor User
@@ -89,7 +126,7 @@ sequenceDiagram
     end
 ```
 ---
-**Trip Scheduler**
+### Trip Scheduler
 ```mermaid
 sequenceDiagram
     Actor User
@@ -126,7 +163,7 @@ sequenceDiagram
     end
 ```
 ---
-**Todo**
+### Todo
 ```mermaid
 sequenceDiagram
     Actor User
@@ -164,7 +201,7 @@ sequenceDiagram
     end
 ```
 ---
-**Comment**
+### Comment
 ```mermaid
 sequenceDiagram
     Actor User
@@ -185,6 +222,8 @@ sequenceDiagram
     end
 ```
 
+<p align="right">(<a href="#travel-planner">back to top</a>)</p>
+
 ## Future Improvement
 
 - [ ] Add websocket to adopt to push notification and real time update upon everyone with concurrent connection
@@ -197,6 +236,7 @@ sequenceDiagram
 - [ ] Add AI to optimize the route (save money and time by taking traffic congestion,attraction openings, attraction fares into account)
 - [ ] Allow user to purchase ticket and redeem online
 
+<p align="right">(<a href="#travel-planner">back to top</a>)</p>
 
 ## Contact
 Edward Wong - [![Github][github-shield]][github-edward-url] [![LinkedIn][linkedin-shield]][linkedin-edward-url] [![Mail][gmail-shield]][gmail-edward-url]
@@ -207,12 +247,16 @@ Coco Yu - [![Github][github-shield]][github-coco-url] [![LinkedIn][linkedin-shie
 
 Calvin Chan - [![Github][github-shield]][github-calvin-url] [![LinkedIn][linkedin-shield]][linkedin-calvin-url]  [![Mail][gmail-shield]][gmail-calvin-url]
 
+<p align="right">(<a href="#travel-planner">back to top</a>)</p>
+
 ## Acknowledgments
 
 * [Map (Open Street Map)](https://www.openstreetmap.org)
 * [Planner Component](https://github.com/atlassian/react-beautiful-dnd)
 * [Path Finding Optimization](https://github.com/GIScience/openrouteservice-js)
 * [Img Shields](https://shields.io)
+
+<p align="right">(<a href="#travel-planner">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [Typescript]: https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white
