@@ -185,6 +185,19 @@ sequenceDiagram
     end
 ```
 
+## Future Improvement
+
+- [ ] Add websocket to adopt to push notification and real time update upon everyone with concurrent connection
+- [ ] Add restaurants for choosing
+- [ ] Add status monitor and crashlytics using sentry
+- [ ] Add more filter on attraction list (category, fare, opening hours etc.)
+- [ ] Support places outside toronto
+- [ ] Add better time estimation of each attractions
+- [ ] Add more routing options and fare calculations
+- [ ] Add AI to optimize the route (save money and time by taking traffic congestion,attraction openings, attraction fares into account)
+- [ ] Allow user to purchase ticket and redeem online
+
+
 ## Contact
 Edward Wong - [![Github][github-shield]][github-edward-url] [![LinkedIn][linkedin-shield]][linkedin-edward-url] [![Mail][gmail-shield]][gmail-edward-url]
 
