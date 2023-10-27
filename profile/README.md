@@ -11,7 +11,7 @@
       <ul>
         <li><a href="#feature">Feature</a></li>
         <li>
-            <a href="#feature">Tech Stack</a>
+            <a href="#tech-stack">Tech Stack</a>
             <ul>
                 <li><a href="#frontend">Frontend</a></li>
                 <li><a href="#backend">Backend</a></li>
